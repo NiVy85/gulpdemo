@@ -16,3 +16,7 @@
  <p>Move cursor over any letter in "GULP" to start animation</p>
  <p>Click anywhere to add a random letter under cursor</p>
   
+<h3>Setup:</h3>
+<p>Pull or download repo.</p>
+<p>Run <i>npm init</i> from root folder.</p>
+<p>Start watching files for changes and launch website in browser by running <i>gulp watch</i></p>
