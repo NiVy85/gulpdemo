@@ -1,7 +1,10 @@
 # gulpdemo
 
 <h1>Gulp Demo</h1>
-<p>Short demonstration of gulp.js.</p>
+<p>Automating the process of concatenating and minifying files.</p> 
+<p>Automatically performs tasks when file is saved/changed.</p>
+<p>Reloads website when file is changed for direct resault.</p>
+
 <ul>
   <li>Browsersync for live reload</li>
   <li>Concat to fuse Css and JS files</li>
