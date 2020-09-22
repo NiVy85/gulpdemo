@@ -1,0 +1,13 @@
+body {
+  background:#4E859F;
+  overflow: hidden;
+}
+
+.fillerContent {
+  position: absolute;
+  z-index: -5;
+  transform: rotate(-45deg) translate(30vw, 135vh);
+  width: 1024px;
+  height: 782px;
+  background-color: #BFFCC6;
+}

@@ -1,0 +1,59 @@
+.gulp {
+  text-align: center;
+}
+
+.letter {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 6.5rem;
+}
+
+.fir {
+ color: #FF9CEE;
+ transform: translate(-200px, 25vh);
+ animation-name: g;
+ animation-duration: 2s; 
+}
+
+.sec {
+color: #E7FFAC;
+transform: translate(-110px, 25vh);
+animation-name: u;
+animation-duration: 2s; 
+}
+
+.thi {
+color: #C5A3FF;
+transform: translate(-20px, 25vh);
+animation-name: l;
+animation-duration: 2s; 
+}
+
+.fou {
+color: #FFBEBC;
+transform: translate(60px, 25vh);
+animation-name: p;
+animation-duration: 2s; 
+}
+
+@keyframes g {
+  0% {transform: translate(-200px, -20vh);}
+  60% {transform: translate(-200px, calc(25vh + 40px));}
+  100% {transform: translate(-200px, 25vh);}
+}
+@keyframes u {
+  0% {transform: translate(-110px, 120vh);}
+  60% {transform: translate(-110px, calc(25vh - 40px));}
+  100% {transform: translate(-110px, 25vh);}
+}
+@keyframes l {
+  0% {transform: translate(120vw, -20vh);}
+  60% {transform: translate(20px, calc(25vh + 40px));}
+  100% {transform: translate(-20px, 25vh);}
+}
+@keyframes p {
+  0% {transform: translate(120vw, 120vh);}
+  60% {transform: translate(20px, calc(25vh - 40px));}
+  100% {transform: translate(60px, 25vh);}
+}
