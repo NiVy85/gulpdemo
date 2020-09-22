@@ -3,7 +3,7 @@
 <h1>Gulp Demo</h1>
 <p>Automating the process of concatenating and minifying files.</p> 
 <p>Automatically performs tasks when file is saved/changed.</p>
-<p>Reloads website when file is changed for direct resault.</p>
+<p>Reloads website when file is changed for direct result.</p>
 
 <ul>
   <li>Browsersync for live reload</li>
