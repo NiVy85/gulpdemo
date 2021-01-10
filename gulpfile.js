@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 const mincss = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
@@ -48,6 +49,9 @@ function cleanJs() {
 		.src(js_src)
 		.pipe(concat('main.js'))
 		.pipe(uglify())
+		.pipe(babel({
+			presets: ['@babel/env']
+		}))
 		.pipe(gulp.dest(js_dest))
 		.pipe(
 			browserSync.reload({
